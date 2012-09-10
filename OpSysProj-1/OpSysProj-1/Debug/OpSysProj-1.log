@@ -1,0 +1,49 @@
+﻿Build started 9/9/2012 9:35:14 PM.
+Project "C:\Users\Rick\Documents\Visual Studio 2010\Projects\OpSysProj-1\OpSysProj-1\OpSysProj-1.vcxproj" on node 2 (rebuild target(s)).
+InitializeBuildStatus:
+  Touching "Debug\dsg.unsuccessfulbuild".
+ClCompile:
+  c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\dsg.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+  stdafx.cpp
+  c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\dsg.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DiscDrive.cpp FCFS.cpp IOScheduler.cpp SchedulingAlgorithm.cpp dsg.cpp Request.cpp
+  Request.cpp
+  dsg.cpp
+  SchedulingAlgorithm.cpp
+  IOScheduler.cpp
+c:\users\rick\documents\visual studio 2010\projects\opsysproj-1\opsysproj-1\ioscheduler.cpp(86): warning C4018: '<' : signed/unsigned mismatch
+  FCFS.cpp
+  DiscDrive.cpp
+  Generating Code...
+ManifestResourceCompile:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\dsg.exe.embed.manifest.res" Debug\dsg_manifest.rc 
+Link:
+  c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Rick\Documents\Visual Studio 2010\Projects\OpSysProj-1\Debug\dsg.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\dsg.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Rick\Documents\Visual Studio 2010\Projects\OpSysProj-1\Debug\dsg.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Rick\Documents\Visual Studio 2010\Projects\OpSysProj-1\Debug\dsg.lib" /MACHINE:X86 Debug\dsg.exe.embed.manifest.res
+  Debug\DiscDrive.obj
+  Debug\FCFS.obj
+  Debug\IOScheduler.obj
+  Debug\SchedulingAlgorithm.obj
+  Debug\dsg.obj
+  Debug\Request.obj
+  Debug\stdafx.obj
+Manifest:
+  Deleting file "Debug\dsg.exe.embed.manifest".
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\dsg.exe.embed.manifest" /manifest Debug\dsg.exe.intermediate.manifest
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\dsg.exe.embed.manifest.res" Debug\dsg_manifest.rc 
+LinkEmbedManifest:
+  c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Rick\Documents\Visual Studio 2010\Projects\OpSysProj-1\Debug\dsg.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\dsg.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Rick\Documents\Visual Studio 2010\Projects\OpSysProj-1\Debug\dsg.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Rick\Documents\Visual Studio 2010\Projects\OpSysProj-1\Debug\dsg.lib" /MACHINE:X86 Debug\dsg.exe.embed.manifest.res
+  Debug\DiscDrive.obj
+  Debug\FCFS.obj
+  Debug\IOScheduler.obj
+  Debug\SchedulingAlgorithm.obj
+  Debug\dsg.obj
+  Debug\Request.obj
+  Debug\stdafx.obj
+  OpSysProj-1.vcxproj -> C:\Users\Rick\Documents\Visual Studio 2010\Projects\OpSysProj-1\Debug\dsg.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\dsg.unsuccessfulbuild".
+  Touching "Debug\dsg.lastbuildstate".
+Done Building Project "C:\Users\Rick\Documents\Visual Studio 2010\Projects\OpSysProj-1\OpSysProj-1\OpSysProj-1.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.84
